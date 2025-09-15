@@ -25,6 +25,12 @@ from .common import (
 
 from .common.kueue import (
     list_local_queues,
+    get_queue_resource_info,
+    get_resource_flavor_details,
+    get_cluster_queue_details,
+    get_available_resources_summary,
+    analyze_queue_utilization,
+    find_best_queue_for_workload,
 )
 
 from .common.utils import generate_cert
